@@ -95,7 +95,7 @@ p.hero { font-size: 18px; font-weight: 200; }
 .playListContainer .sideNav ul { margin: 60px 0 40px 0; font-family: "jaf-bernina-sans-comp"; font-size: 24px; font-weight: 700; letter-spacing: .05em; list-style: none; }
 .playListContainer .sideNav ul li { padding: 0 0 15px; font-size: 40px; }
 /*add back later .playListContainer .slideContainer { width: 600px !important; height: 628px !important; padding-left: 60px; float: left; overflow: hidden; } */
-.playListContainer .slideContainer { width: 660px !important; height: 628px !important; padding-left: 30px; float: left; overflow: hidden; }
+.playListContainer .slideContainer { width: 660px !important; height: 628px !important; padding-left: 30px; float: left; overflow: scroll; }
 
 
 dl.items { height: 630px; list-style: none; color: #ffffff; }
@@ -137,14 +137,14 @@ dl.previewItems dt, dl.items dd, dl.previewItems dd { font-family: "museo-sans";
 	opacity: .87;
 }
 
-#timer {	
+#timer {
 	padding: 10px;
  text-align: center;
 }
 
 #timer div {
 display: inline-block;
-/* 
+/*
 background: #000000;
 opacity .9;
  */
